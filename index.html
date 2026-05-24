@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mine Empire — Privacy Policy</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #222; line-height: 1.7; }
+    h1 { color: #b8860b; }
+    h2 { color: #444; margin-top: 32px; }
+    p, li { font-size: 15px; }
+    .lang-switch { margin-bottom: 32px; }
+    .lang-switch a { margin-right: 16px; color: #b8860b; text-decoration: none; font-weight: bold; }
+    .section { display: none; }
+    .section.active { display: block; }
+    hr { margin: 40px 0; border: none; border-top: 1px solid #ddd; }
+  </style>
+</head>
+<body>
+
+  <div class="lang-switch">
+    <a href="#" onclick="show('pl')">🇵🇱 Polski</a>
+    <a href="#" onclick="show('en')">🇬🇧 English</a>
+  </div>
+
+  <!-- POLISH -->
+  <div id="pl" class="section active">
+    <h1>Polityka Prywatności — Mine Empire</h1>
+    <p><em>Ostatnia aktualizacja: 24 maja 2026</em></p>
+
+    <h2>1. Administrator danych</h2>
+    <p>Administratorem danych osobowych jest Rafał Goławski, kontakt: <a href="mailto:rafalgolawski@gmail.com">rafalgolawski@gmail.com</a></p>
+
+    <h2>2. Jakie dane zbieramy</h2>
+    <ul>
+      <li><strong>Konto Google / Email</strong> — przy logowaniu przez Firebase Authentication (imię, adres email, UID)</li>
+      <li><strong>Dane rozgrywki</strong> — postęp w grze, wyniki rankingowe przechowywane w Firebase Firestore</li>
+      <li><strong>Dane reklamowe</strong> — Google AdMob zbiera dane do wyświetlania reklam (identyfikator urządzenia, dane behawioralne)</li>
+    </ul>
+
+    <h2>3. Cel przetwarzania</h2>
+    <ul>
+      <li>Umożliwienie logowania i zapisywania postępu gry</li>
+      <li>Wyświetlanie rankingów globalnych i sezonowych</li>
+      <li>Wyświetlanie reklam (monetyzacja gry)</li>
+    </ul>
+
+    <h2>4. Podstawa prawna</h2>
+    <p>Przetwarzanie odbywa się na podstawie zgody użytkownika (art. 6 ust. 1 lit. a RODO) wyrażonej przez zainstalowanie i używanie aplikacji.</p>
+
+    <h2>5. Udostępnianie danych</h2>
+    <p>Dane są przekazywane wyłącznie:</p>
+    <ul>
+      <li><strong>Google Firebase</strong> (hosting, baza danych, autentykacja) — <a href="https://firebase.google.com/support/privacy" target="_blank">polityka prywatności</a></li>
+      <li><strong>Google AdMob</strong> (reklamy) — <a href="https://policies.google.com/privacy" target="_blank">polityka prywatności</a></li>
+    </ul>
+
+    <h2>6. Prawa użytkownika</h2>
+    <p>Masz prawo do dostępu, sprostowania, usunięcia danych oraz wycofania zgody. Kontakt: <a href="mailto:rafalgolawski@gmail.com">rafalgolawski@gmail.com</a></p>
+
+    <h2>7. Dane dzieci</h2>
+    <p>Aplikacja nie jest skierowana do dzieci poniżej 13 roku życia i świadomie nie zbiera ich danych.</p>
+
+    <h2>8. Zmiany polityki</h2>
+    <p>O istotnych zmianach poinformujemy przez aktualizację daty na tej stronie.</p>
+  </div>
+
+  <!-- ENGLISH -->
+  <div id="en" class="section">
+    <h1>Privacy Policy — Mine Empire</h1>
+    <p><em>Last updated: May 24, 2026</em></p>
+
+    <h2>1. Data Controller</h2>
+    <p>Data controller: Rafał Goławski, contact: <a href="mailto:rafalgolawski@gmail.com">rafalgolawski@gmail.com</a></p>
+
+    <h2>2. Data We Collect</h2>
+    <ul>
+      <li><strong>Google Account / Email</strong> — when signing in via Firebase Authentication (name, email address, UID)</li>
+      <li><strong>Gameplay data</strong> — game progress and ranking scores stored in Firebase Firestore</li>
+      <li><strong>Advertising data</strong> — Google AdMob collects data for ad serving (device identifiers, behavioral data)</li>
+    </ul>
+
+    <h2>3. Purpose of Processing</h2>
+    <ul>
+      <li>Enabling login and saving game progress</li>
+      <li>Displaying global and seasonal leaderboards</li>
+      <li>Displaying advertisements (game monetization)</li>
+    </ul>
+
+    <h2>4. Legal Basis</h2>
+    <p>Processing is based on user consent (Art. 6(1)(a) GDPR) given by installing and using the application.</p>
+
+    <h2>5. Data Sharing</h2>
+    <p>Data is shared only with:</p>
+    <ul>
+      <li><strong>Google Firebase</strong> (hosting, database, authentication) — <a href="https://firebase.google.com/support/privacy" target="_blank">privacy policy</a></li>
+      <li><strong>Google AdMob</strong> (advertising) — <a href="https://policies.google.com/privacy" target="_blank">privacy policy</a></li>
+    </ul>
+
+    <h2>6. User Rights</h2>
+    <p>You have the right to access, rectify, delete your data and withdraw consent. Contact: <a href="mailto:rafalgolawski@gmail.com">rafalgolawski@gmail.com</a></p>
+
+    <h2>7. Children's Data</h2>
+    <p>This application is not directed at children under 13 and does not knowingly collect their data.</p>
+
+    <h2>8. Policy Changes</h2>
+    <p>We will notify users of significant changes by updating the date on this page.</p>
+  </div>
+
+  <script>
+    function show(lang) {
+      document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+      document.getElementById(lang).classList.add('active');
+    }
+  </script>
+
+</body>
+</html>
